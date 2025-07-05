@@ -1,2 +1,35 @@
-# pebble
-Pebble Programming Language A new general-purpose programming language designed to be simpler than Python, written in natural, readable syntax, and usable across web, software, and mobile development.
+# 🪨 Pebble Programming Language
+
+**Pebble** is a new general-purpose language designed to be **easier than Python**, written in a **natural, English-like style**, and usable across **web, mobile, and software development**.
+
+---
+
+## ✨ Philosophy
+
+- 🧠 **Readability First** – code should read like English
+- 🚀 **Beginner Friendly** – perfect for new programmers
+- 🌐 **Multi-platform** – CLI, Web, Mobile
+- 🔁 **Transpile, not compile** – converts to Python, JS, Dart
+
+---
+
+## ✅ What Can You Do?
+
+- Build websites & apps using `screen`, `input`, `button`
+- Write scripts like Python
+- Run Pebble in terminal or browser
+- Create mobile apps with Flutter (coming soon)
+
+---
+
+## 👇 Sample Pebble Code
+
+```pebble
+ask "What is your name?"
+let name be _
+show "Hello, " plus name
+
+define greet with who then
+    show "Hi, " plus who
+
+greet with name
