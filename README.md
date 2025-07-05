@@ -33,3 +33,15 @@ define greet with who then
     show "Hi, " plus who
 
 greet with name
+
+# Pebble v0.2 Full
+
+Pebble is a simple, natural-language-inspired programming language that supports:
+- Variable assignment
+- User input
+- Math expressions (`plus`, `minus`, `times`, etc.)
+- If/Else conditionals
+- Repeat loops
+- Multi-argument functions
+- Function definitions and calls
+- Web UI DSL (via transpiler)
