@@ -32,7 +32,7 @@ show "Hello, " plus name
 define greet with who then
     show "Hi, " plus who
 
-greet with name
+greet with name ```
 
 ---
 # Pebble v0.2 Full
