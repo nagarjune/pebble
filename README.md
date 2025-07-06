@@ -34,6 +34,7 @@ define greet with who then
 
 greet with name
 
+---
 # Pebble v0.2 Full
 
 Pebble is a simple, natural-language-inspired programming language that supports:
@@ -45,7 +46,7 @@ Pebble is a simple, natural-language-inspired programming language that supports
 - Multi-argument functions
 - Function definitions and calls
 - Web UI DSL (via transpiler)
-
+---
 # Pebble v0.3
 
 Pebble is an English-like, beginner-first programming language designed for non-developers to build logic, apps, or automate tasks — without needing to learn traditional programming.
